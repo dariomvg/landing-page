@@ -1,5 +1,5 @@
 # Landing page
-> Landing page de un servicio de almacenamiento en la nube, con diferentes planes de suscripcion, pruebas gratis, etc
+> Landing page de un servicio de almacenamiento en la nube.
 
 ### Clonar el Proyecto
 #### Para clonar este proyecto en tu máquina local, asegúrate de tener Git instalado. Luego, sigue estos pasos:
