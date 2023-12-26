@@ -1,14 +1,7 @@
-import React from 'react'
-import "../estilos/Planes.css"
+import "../estilos/Planes.css";
 
-const Plan = ({children}) => {
-  return (
-    <div>
-        <div className='container'>
-            {children}
-        </div>
-    </div>
-  )
-}
+const Plan = ({ children }) => {
+  return <div className="container">{children}</div>;
+};
 
-export default Plan
+export default Plan;

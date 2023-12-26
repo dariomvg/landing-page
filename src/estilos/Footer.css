@@ -3,7 +3,6 @@
   padding: 15px;
   display: grid;
   gap: 15px;
-  background-color: rgba(207, 207, 207, 0.712);
 }
 .title-footer {
   padding: 10px;
@@ -12,8 +11,8 @@
 .list-icons {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   cursor: pointer;
+  gap: 10px;
 }
 .cont-icons {
   display: flex;
@@ -24,19 +23,26 @@
 }
 
 .list-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 10px;
-    font-size: 18px;
-    color: rgb(88, 88, 87);
-    cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: rgb(88, 88, 87);
+  cursor: pointer;
 }
-.tags-footer:hover {
-    transform: translateY(-5px);
+.tags {
+  display: flex;
+  gap: 10px;
 }
-.title-copy {
-    text-align: center;
+.icon-footer {
+  transition: transform 0.5s;
+}
+.icon-footer:hover {
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+}
+.title-copyright {
+  text-align: center;
 }

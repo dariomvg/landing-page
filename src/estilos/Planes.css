@@ -1,29 +1,33 @@
-.sec-planes {
-    width: 100%;
-    background-color:rgb(250, 235, 215);
-}
-.title-planes{
+.title-planes {
   color: #141313;
   padding: 25px 30px;
 }
-.section-cards{
+.section-cards {
   width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f9f9f9,
+    #f3f3f3,
+    #ededed,
+    #e7e7e7
+  );
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
+  padding-bottom: 100px;
 }
-.plan{
+.plan {
   box-shadow: 0 0 8px #000;
   width: 310px;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   padding: 10px;
   background: #fff;
   border-radius: 5px;
@@ -32,12 +36,15 @@
   display: flex;
   align-items: center;
   font-size: 18px;
-  color: #8a2be2;
+}
+.title-recomendated {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 .icon-recomendated {
   width: 30px;
 }
-.title-card{
+.title-card {
   text-align: center;
   font-size: 25px;
   color: #141313;
@@ -48,49 +55,50 @@
   align-items: center;
   gap: 10px;
 }
-.former-price{
-  text-decoration:line-through;
-  color: #6e6e6e;
+.former-price {
+  text-decoration: line-through;
+  color: #838383;
 }
-.price-now{
+.price-now {
   font-size: 30px;
-  color: #8a2be2;
+  color: #04be04;
 }
-.list{
+.list {
   list-style: none;
   font-size: 18px;
   color: rgb(0, 0, 0);
   font-weight: 600;
 }
-.list-li{
+.list-li {
   padding-bottom: 8px;
 }
 .buttons-planes {
   display: grid;
-  gap:14px; 
+  gap: 14px;
 }
-.button{
+.button {
   padding: 10px;
-  border: none; 
+  border: none;
   font-size: 16px;
   cursor: pointer;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
 }
-.free{
-  background-color: #01c52b;
-  box-shadow: 0 0 5px #01c52b ;
+.button:hover {
+  font-weight: bold;
 }
-.premium{
-  background-color: #006be6;
-  box-shadow: 0 0 3px #006be6 ;
-  color: #fff;
-  font-weight: 700;
-}
+
 .activated {
   transform: translateY(-50px);
 }
 
-@media (max-width:1028px) {
+@media (max-width: 1028px) {
   .title-planes {
     font-size: 30px;
     padding: 10px;
@@ -98,5 +106,4 @@
   .activated {
     transform: translateY(0);
   }
-  
 }
